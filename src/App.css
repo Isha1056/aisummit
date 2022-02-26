@@ -12,6 +12,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.wrapper{
+  overflow: hidden;
+}
+/* .wavebackground{
+  height: 20% !important;
+} */
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +41,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.summitLogo{
+  position: absolute;
+  top: 20px;
+  right: 16px;
+  width: 10vw;
+  font-size: 5px;
+}
+
+.gdscLogo{
+  position: absolute;
+  top: 20px;
+  left: 16px;
+  width: 17%;
+}
+.framewrapper{
+  height: 90vh;
+}
+
+.waverow{
+  z-index: 2;
+  position: relative;
+}
+
+.framerow{
+  z-index: 1 !important;
+  width: 100vw !important;
+}
+
+.footerrow{
+  z-index: 2;
 }
